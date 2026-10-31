@@ -1,0 +1,1 @@
+{ "name": "ClassPulse Academy", "short_name": "ClassPulse", "start_url": "/app", "display": "standalone", "background_color": "#f4f3ee", "theme_color": "#4a66c4", "icons": [{ "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml" }] }

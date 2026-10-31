@@ -1,0 +1,24 @@
+{
+  "format": "classpulse-pack",
+  "version": 1,
+  "name": "Optics starter pack",
+  "license": "CC-BY-4.0",
+  "author": "Team Versatile",
+  "subjects": [{ "id": "phy", "name": "Physics", "topics": ["Optics"] }],
+  "lectures": [
+    { "subjectId": "phy", "topic": "Optics", "title": "Reflection and the mirror formula", "kind": "notes", "minutes": 15,
+      "notes": "The mirror formula links object distance u, image distance v and focal length f: 1/f = 1/v + 1/u.\n\nFor a concave mirror f is negative in the New Cartesian sign convention. Magnification m = -v/u; a negative m means the image is inverted." },
+    { "subjectId": "phy", "topic": "Optics", "title": "Refraction and Snell's law", "kind": "notes", "minutes": 12,
+      "notes": "When light passes from one medium to another it bends. Snell's law: n1 sin(i) = n2 sin(r).\n\nLight bends towards the normal when it enters a denser medium (higher n)." }
+  ],
+  "questions": [
+    { "subjectId": "phy", "topic": "Optics", "difficulty": "easy", "q": "Light enters glass from air. It bends…", "options": ["Towards the normal", "Away from the normal", "Not at all", "Backwards"], "answer": 0, "hint": "Glass is optically denser.", "explanation": "Entering a denser medium slows light, so it bends towards the normal." },
+    { "subjectId": "phy", "topic": "Optics", "difficulty": "medium", "q": "A magnification of -2 means the image is…", "options": ["Inverted and twice as big", "Upright and twice as big", "Inverted and half the size", "Virtual and upright"], "answer": 0, "hint": "The sign tells orientation.", "explanation": "Negative m = inverted; |m| = 2 = twice the size." },
+    { "subjectId": "phy", "topic": "Optics", "difficulty": "hard", "q": "Which law relates the angles of incidence and refraction?", "options": ["Snell's law", "Hooke's law", "Ohm's law", "Boyle's law"], "answer": 0, "hint": "n1 sin i = n2 sin r.", "explanation": "Snell's law describes refraction at a boundary." }
+  ],
+  "faq": [
+    { "subjectId": "phy", "topic": "Optics", "q": "Why does a straw look bent in water?", "a": "Light from the straw refracts as it leaves water into air, so your eye traces it back along a different line, making the straw look bent." }
+  ],
+  "gameLevels": [],
+  "doubtStats": []
+}
